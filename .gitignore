@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+dist/
+build/
+.next/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
+.env
+.env.local
+.env.production
+.env.development
+*.log
+
+# Workspace
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Project specific
+backend/models_list.txt
+tmp/
